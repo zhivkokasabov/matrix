@@ -1,0 +1,33 @@
+@import './styles/variables';
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+#app {
+  height: 100vh;
+  padding: 0 2rem 2rem;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 60rem;
+  min-width: 25rem;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+  box-sizing: border-box;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  background: #fff;
+}
+
+hr {
+  margin: 0 0 1rem;
+  background: $color-grey;
+}
